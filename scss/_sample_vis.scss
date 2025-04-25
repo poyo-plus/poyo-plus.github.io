@@ -1,0 +1,54 @@
+#vis-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: bottom; /* can also be 'top' or 'bottom' */
+}
+
+#vis-emb {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+}
+
+#vis-model {
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+}
+
+#vis-vel-plots {
+    display: inline-block;
+}
+
+#vis-vx-plot {
+    height: 120px;
+    width: 500px;
+}
+
+#vis-vy-plot {
+    height: 140px;
+    width: 500px;
+}
+
+#vis-spike-plot {
+    height: 240px;
+    width: 500px;
+}
+
+#vis-button {
+    width: 30px;
+    height: 30px;
+}
+
+/* Add some basic styling to your slider */
+#vis-slider-container {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+#vis-slider {
+    width: 40%;
+    /* margin: 0 5px; */
+    margin: 8px;
+}
